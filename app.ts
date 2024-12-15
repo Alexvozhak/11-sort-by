@@ -11,7 +11,7 @@ const people: Person[] = [
   { name: "Charlie", age: 35 },
 ];
 
-people.sort(sortBy("age"));
+people.sort(sortBy("name"));
 console.log(people);
 
 //1) почему не собирается проект на runkit? https://runkit.com/embed/1feype3adw5s
